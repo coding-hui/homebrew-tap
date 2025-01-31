@@ -5,12 +5,12 @@
 class AiTerminal < Formula
   desc "AI driven development in your terminal"
   homepage "https://github.com/coding-hui/ai-terminal"
-  version "0.13.0"
+  version "0.13.1"
 
   on_macos do
     on_intel do
-      url "https://github.com/coding-hui/ai-terminal/releases/download/v0.13.0/ai-terminal_Darwin_x86_64.tar.gz"
-      sha256 "f7b59c5a6f3ac2f820f3dc306a9e7e88f15ada43939ab655b7104a7701ee12e2"
+      url "https://github.com/coding-hui/ai-terminal/releases/download/v0.13.1/ai-terminal_Darwin_x86_64.tar.gz"
+      sha256 "8c0ed51e1974e76530f41211ae783d62208e13ada628a3b00e8c0ad168c2e919"
 
       def install
         bin.install "ai"
@@ -21,8 +21,8 @@ class AiTerminal < Formula
       end
     end
     on_arm do
-      url "https://github.com/coding-hui/ai-terminal/releases/download/v0.13.0/ai-terminal_Darwin_arm64.tar.gz"
-      sha256 "8a56394dff2033238784c6cffaa75d95616de88d151623d8dffac031a0c95de5"
+      url "https://github.com/coding-hui/ai-terminal/releases/download/v0.13.1/ai-terminal_Darwin_arm64.tar.gz"
+      sha256 "68628776d9d11d71e9d6605f7dc8df37ae0046ccf6c265541b338af2d39462bc"
 
       def install
         bin.install "ai"
@@ -37,8 +37,8 @@ class AiTerminal < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/coding-hui/ai-terminal/releases/download/v0.13.0/ai-terminal_Linux_x86_64.tar.gz"
-        sha256 "688904cfed824632f980b40462a6cc70c2a5579cd6737691b0778147bceca4f9"
+        url "https://github.com/coding-hui/ai-terminal/releases/download/v0.13.1/ai-terminal_Linux_x86_64.tar.gz"
+        sha256 "753a6acd0fbf495dc59825d5dec512d8b338c566cab49f2afb670ee91654b48a"
 
         def install
           bin.install "ai"
@@ -51,8 +51,8 @@ class AiTerminal < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/coding-hui/ai-terminal/releases/download/v0.13.0/ai-terminal_Linux_arm64.tar.gz"
-        sha256 "1ca69197cc4e13a1967fddfa731ce05a46d825435d15665728eff02571c3aed6"
+        url "https://github.com/coding-hui/ai-terminal/releases/download/v0.13.1/ai-terminal_Linux_arm64.tar.gz"
+        sha256 "31b7736f3ebb1fc46d2e94c41122330b906dcacd25e5c14a8793eb8a23420476"
 
         def install
           bin.install "ai"
