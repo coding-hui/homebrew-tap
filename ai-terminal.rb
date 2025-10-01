@@ -10,7 +10,7 @@ class AiTerminal < Formula
   on_macos do
     on_intel do
       url "https://github.com/coding-hui/ai-terminal/releases/download/v0.13.5/ai-terminal_Darwin_x86_64.tar.gz"
-      sha256 "515cb791e8f68f145ab134d0cea5ee8f2f5d8c61b4b33a9d7ca885d5990f2119"
+      sha256 "119895d62d314c1862ac24ab13ceaf223fe53add681b68435cb0ca7f74b0dea9"
 
       def install
         bin.install "ai"
@@ -22,7 +22,7 @@ class AiTerminal < Formula
     end
     on_arm do
       url "https://github.com/coding-hui/ai-terminal/releases/download/v0.13.5/ai-terminal_Darwin_arm64.tar.gz"
-      sha256 "580b95a061220db446ae98eedf858ed49456d83b7c4d2bacbcba57f95474b088"
+      sha256 "a5303ed061e2e9cbb99a75bf0fdf81d0be343686a81da5f0daa628aca199539e"
 
       def install
         bin.install "ai"
@@ -38,7 +38,7 @@ class AiTerminal < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/coding-hui/ai-terminal/releases/download/v0.13.5/ai-terminal_Linux_x86_64.tar.gz"
-        sha256 "0fc86e247f5c49b8bf7be6a2423219169381dd2ff04acffeed740f1589223e19"
+        sha256 "7f7373ac46c0c5a368f000df3f268076d84709a48a1c48ed769b310543453ec7"
 
         def install
           bin.install "ai"
@@ -52,7 +52,7 @@ class AiTerminal < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/coding-hui/ai-terminal/releases/download/v0.13.5/ai-terminal_Linux_arm64.tar.gz"
-        sha256 "49a7ec883dcec7e6869af359a822c9aabb509f396bad663ce73950660433953f"
+        sha256 "a42c484053747a7c48ed777a0d3c2874556ca0770eadc92310973dd38c6a9723"
 
         def install
           bin.install "ai"
